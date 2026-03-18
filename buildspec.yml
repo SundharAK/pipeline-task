@@ -12,7 +12,4 @@ phases:
   post_build:
     commands:
       - aws s3 sync build/ s3://sundhar-pipeline-bucket
-
-      - aws cloudfront create-invalidation \
-          --distribution-id E20GPC949JBVMM \
-          --paths "/*"
+      - aws cloudfront create-invalidation --distribution-id E20GPC949JBVMM --paths "/*"
