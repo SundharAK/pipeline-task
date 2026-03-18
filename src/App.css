@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Card UI */
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 12px;
+  text-align: center;
+  width: 350px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+.card h1 {
+  margin-bottom: 10px;
+}
+
+.card h2 {
+  color: #555;
+}
+
+.card p {
+  color: #777;
+  margin: 20px 0;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  background: #2c5364;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #1a2f3a;
+}
